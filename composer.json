@@ -1,0 +1,22 @@
+{
+  "name": "olegatro/html-sanitizer-relative",
+  "description": "Extension for html-sanitizer library by allowing relative urls in the A and Image tags",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Oleg Scherbakov",
+      "email": "shcherbakov.oleg88@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "HtmlSanitizer\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.1",
+    "ext-dom": "*",
+    "tgalopin/html-sanitizer": "^1.4"
+  }
+}
